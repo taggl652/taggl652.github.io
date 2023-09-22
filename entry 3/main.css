@@ -1,0 +1,236 @@
+@font-face{
+    font-family: "movement";
+    src: url('fonts/movement.woff2') format('woff2-variations');
+    font-weight: 100 900;
+    font-display: swap;
+}
+
+body{
+    background-color: black;
+    height:1000vh;
+}
+h1{
+    height: 100vh;
+    display: grid;
+    place-content: center;
+    margin: 0;
+    text-align: center;
+    color: white;
+    font-family: 'movement';
+    line-height: 85%;
+    font-size: 1000%;
+    position: fixed;
+    width: 100%;
+}
+
+p{
+    margin:0;
+    padding:0;
+    line-height:85%;
+    font-size: 50%;
+}
+
+
+html{
+    scroll-timeline: --page-scroll block;
+}
+
+@keyframes grow-varied{
+    0%{
+        font-variation-settings: 'wght' 100, 'SPAC' 100;
+    }
+
+    20%{
+        font-variation-settings: 'wght' 1000, 'SPAC' 120;
+        opacity: 100%;
+    }
+
+    30%{
+        font-variation-settings: 'wght' 1000, 'SPAC' 120;
+        opacity: 0%;
+    }
+    100%{
+        opacity: 0%;
+    }
+}
+
+#varied{
+    animation: grow-varied auto linear;
+    animation-timeline: --page-scroll;
+}
+
+section{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 200%;
+    line-height: 85%;
+    position: fixed;
+}
+
+h6{
+    padding: 0;
+    margin: 0;
+}
+
+h3{
+    padding: 0;
+    margin: 0;
+    font-family: 'movement';
+    font-variation-settings: 'wght' 1000, 'SPAC' 110;
+}
+
+section:nth-of-type(1)
+{
+    text-align: right;
+    top: 80%;
+    right: 5%;
+    animation: grow-data-1 auto linear;
+    animation-timeline: --page-scroll;
+}
+
+section:nth-of-type(2)
+{
+    height: 100vh;
+    right: 5%;
+    top: 88%;
+    text-align: right;
+    animation: grow-data-1 auto linear;
+    animation-timeline: --page-scroll;
+}
+
+section:nth-of-type(3)
+{
+    right: 3%;
+    top:3%;
+    font-size:1000%;
+    font-family: 'movement';
+    font-variation-settings: 'wght' 1000 'SPAC' 120;
+    animation: grow-data-2 auto linear;
+    animation-timeline: --page-scroll;
+}
+
+section:nth-of-type(4)
+{
+    left: 3%;
+    top: 93%;
+    animation: grow-data-3 auto linear;
+    animation-timeline: --page-scroll;
+}
+
+@keyframes grow-data-1 {
+    0%{
+        opacity: 0%;
+    }
+    60%{
+
+        opacity: 0%;
+    }
+    70%{
+        opacity: 100%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+
+@keyframes grow-data-2{
+    0%{
+
+        opacity: 0%;
+
+    }
+
+    30%{
+        opacity: 0%;
+        font-size:100%;
+    }
+
+    60%{
+        opacity: 100%;
+        font-size:900%;
+    }
+
+    70%{
+        opacity: 100%;
+        font-size:800%;
+    }
+
+    100%{
+        opacity: 100%;
+        font-size:800%;
+    }
+
+}
+
+@keyframes grow-data-3{
+    0%{
+
+        opacity: 0%;
+
+    }
+
+    60%{
+        opacity: 0%;
+    }
+    100%{
+        opacity: 60%;
+    } 
+}
+
+@keyframes grow-data-4{
+    0%{
+        opacity: 0%;
+    }
+
+    80%{
+        opacity: 0%;
+    }
+
+    100%{
+        opacity: 60%;
+    }
+}
+
+/**
+#data{
+    animation: grow-data auto linear;
+    animation-delay: scroll-timeline();
+    animation-timeline: --page-scroll;
+}
+*/
+
+svg{
+    position: fixed;
+    width:50%;
+    top: 10%;
+    left: 22%;
+    scale: 75%;
+}
+
+svg path{
+    stroke-width: 1;
+    stroke: white;
+    fill:none;
+}
+
+.dance{
+    stroke-dashoffset: 6109.81103515625;
+    stroke-dasharray: 6109.81103515625;
+    animation: dance-grow auto linear;
+    animation-timeline: --page-scroll;
+    animation-fill-mode:forwards;
+}
+
+@keyframes dance-grow{
+    70%{
+        stroke-dashoffset: 6109.81103515625;
+        fill:none;
+    }
+    99%{
+        fill:none;     
+    }
+    100%{
+        stroke-dashoffset: 0;
+        fill: white;
+    }
+}

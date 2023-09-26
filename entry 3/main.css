@@ -202,7 +202,7 @@ section:nth-of-type(4)
 svg{
     position: fixed;
     width:50%;
-    top: 15%;
+    top: 20%;
     left: 22%;
     scale: 75%;
 }

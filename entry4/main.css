@@ -1,0 +1,70 @@
+body{
+    margin:5%;
+    font-size:200%;
+    line-height: 90%;
+    color:white;
+    background-color:white;
+}
+
+.container{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-gap:1em;
+    align-content:center;
+    justify-content:center;
+}
+
+.item{
+    display:flex;
+    padding:50%;
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position:center;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+
+.item:nth-of-type(1){
+    background-image:url(assets/images/gonna\ be\ rich\ as\ rockefeller.png);
+}
+
+.item:nth-of-type(1):hover{
+    background-image:url(assets/gifs/gonna-be-rich-as-rockefeller.gif);
+    filter: blur(0px)
+    contrast(150%)
+    sepia(10%)
+    hue-rotate(360deg)
+    saturate(1500%)
+    brightness(110%);
+    color:rgba(0,0,0,0);
+}
+
+.item:nth-of-type(2){
+    background-color:black;
+}
+
+.item:nth-of-type(3){
+    background-color: black;
+}
+
+.item:nth-of-type(4){
+    background-color:white;
+}
+
+.item:nth-of-type(5){
+    background-color:white;
+}
+
+.item:nth-of-type(6){
+    background-color:black;
+}
+
+.item:nth-of-type(7){
+    background-color:black;
+}
+
+.item:nth-of-type(8){
+    background-color:black;
+}

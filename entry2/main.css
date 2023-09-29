@@ -1,0 +1,106 @@
+
+.grid-container{
+	display:grid;
+	grid-template-columns: minmax(0,1fr) minmax(0,1fr) minmax(0,1fr);
+	gap:20px;
+}
+
+.grid-item{
+  /* border: 1px solid rgba(0, 0, 0, 0.8); */
+  font-size: 15px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding: 5px;
+  border-radius: 25px;
+  text-align: center;
+  
+}
+
+.first-eight{
+  background-color: crimson;
+  color: white;
+  
+}
+
+.second-eight{
+  background-color: mistyrose;
+}
+
+.third-eight{
+  background-color:crimson;
+  color: white;
+}
+
+.fourth-eight{
+  background-color: mistyrose;
+}
+
+.fifth-eight{
+  background-color:crimson;
+  color: white;
+}
+
+.sixth-eight{
+  background-color: mistyrose;
+}
+
+.seventh-eight{
+  background-color:crimson;
+  color: white;
+}
+
+.eigth-eight{
+  background-color: mistyrose;
+}
+
+.ninth-eight{
+  background-color: crimson;
+  color: white;
+}
+
+.tenth-eight{
+  background-color: mistyrose;
+}
+
+.eleventh-eight{
+  background-color: crimson;
+  color: white;
+}
+
+.twelfth-eight{
+  background-color: mistyrose;
+}
+
+.thirteenth-eight{
+  background-color: crimson;
+  color: white;
+}
+
+.fourteenth-eight{
+  background-color: mistyrose;
+}
+
+.fifteenth-eight{
+  background-color: crimson;
+  color: white;
+}
+
+.main-header{
+  background-color: crimson;
+  color: white;
+  font-size: 40px;
+  line-height: 21px;
+  padding: 5px;
+  border-radius: 25px;
+  text-align:center;
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-top: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+.header-text{
+  stroke: width 10px;
+  stroke: white;
+  line-height: 10px;
+}

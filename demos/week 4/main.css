@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'burgess-regular';
+    src: url(fonts/burgess-regular.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aharoni';
+    src: url(fonts/Aharoni-Bold.woff) format('woff2'),
+        url(fonts/Aharoni-Bold.woff) format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+body{
+    background-color: pink;
+    background-image: url(imgs/fosse\ dancing.jpeg);
+    background-size: 100%;
+}
+
+img {
+    max-width: 20%;
+    margin-bottom: 20px;
+}
+div{
+    background-color: whitesmoke;
+    margin-top: 10%;
+    text-align:center;
+}
+
+
+.burgess{
+    font-family:"burgess-regular", serif;
+}
+
+.pf-expo-bold{
+    font-family: "pf-expo", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.mudstone-sans{
+    font-family: "mudstone-sans", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}

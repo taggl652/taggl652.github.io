@@ -16,7 +16,7 @@ h1{
     color:black;
     text-align:center;
     font-variation-settings:'wght' 100, 'SPAC' 100;
-    font-size:400%;
+    font-size:300%;
     line-height:90%;
     animation: header-grow 3s infinite;
     padding-left:5%;

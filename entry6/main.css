@@ -1,0 +1,355 @@
+body{
+    display:flex;
+    flex-direction:column;
+    height:100vh;
+    width:100vw;
+    
+    font-family:field-gothic-cond,sans-serif;
+    font-weight:200;
+    font-style:normal;
+    font-size: 1vw;
+    overflow:hidden;
+}
+
+.header{
+    display:flex;
+    height:10vh;
+    align-items: center;
+    justify-content:space-between;
+    padding-right:3vw;
+    padding-left:3vw;
+    border-bottom:3px solid #000;
+}
+
+.main{
+    display:flex;
+    height:100%;
+}
+
+.left{
+    flex:1;
+    display:flex;
+    flex-direction:column;
+}
+
+.right{
+    flex:1;
+    display:flex;
+    flex-direction:column;
+}
+
+hr{
+    width:3px;
+    background-color: black;
+    border:none;
+    position:sticky;
+    top:10px;
+
+}
+
+.animations{
+    margin:3%;
+    flex:2.5;
+    z-index:3;
+}
+
+.information{
+    flex:1;
+    margin:3%;
+    text-align:center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-top:2px solid #000;
+    font-size:150%;
+}
+
+.floor{
+    flex:1;
+    margin:3%;
+    background-image: url(assets/candyman_track_dots.png);
+    background-repeat:no-repeat;
+    background-size:contain;
+    border-bottom:2px solid #000;
+    background-position:center;
+}
+
+.selection{
+    flex:1;
+    display:flex;
+    flex-flow:row wrap;
+    margin-right:5%;
+    margin-left:5%;
+}
+
+.column1{
+    width:50%;
+}
+
+.column2{
+    width:50%;
+}
+
+.sequence{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    margin-bottom:5px;
+}
+
+.circle{
+    border-radius:50%;
+    width:5vh;
+    height:5vh;
+    background-color:#000;
+}
+
+.circle1
+{
+    background-color:#f69679;
+}
+
+.circle1 img{
+    position:relative;
+    top:-40vh;
+    left:-50vw;
+    width:40vw;
+    opacity:0%;
+}
+
+.circle1:hover img
+    {
+        opacity:100%;
+}
+
+.circle2
+{
+    background-color:#6dcff6;
+}
+
+.circle2 img{
+    position:relative;
+    top:-45vh;
+    left:-50vw;
+    width:40vw;
+    opacity:0%;
+}
+
+.circle2:hover img
+    {
+        opacity:100%;
+}
+
+
+.circle3
+{
+    background-color:#bc8cbf;
+}
+
+.circle3 img{
+    position:relative;
+    top:-50vh;
+    left:-50vw;
+    width:40vw;
+    opacity:0%;
+}
+
+.circle3:hover img
+    {
+        opacity:100%;
+}
+
+
+
+.circle4
+{
+    background-color:#fff799;
+}
+
+.circle4 img{
+    position:relative;
+    top:-55vh;
+    left:-50vw;
+    width:40vw;
+    opacity:0%;
+}
+
+.circle4:hover img
+    {
+        opacity:100%;
+}
+
+
+
+
+.circle5
+{
+    background-color:#82ca9c;
+}
+
+.circle5 img{
+    position:relative;
+    top:-60vh;
+    left:-50vw;
+    width:40vw;
+    opacity:0%;
+}
+
+.circle5:hover img
+    {
+        opacity:100%;
+}
+
+
+
+.circle6
+{
+    background-color:#f49ac1;
+}
+
+.circle6 img{
+    position:relative;
+    top:-65vh;
+    left:-50vw;
+    width:40vw;
+    opacity:0%;
+}
+
+.circle6:hover img
+    {
+        opacity:100%;
+}
+
+
+.circle7
+{
+    background-color:#7accc8;
+}
+
+.circle7 img{
+    position:relative;
+    top:-70vh;
+    left:-50vw;
+    width:40vw;
+    opacity:0%;
+}
+
+.circle7:hover img
+    {
+        opacity:100%;
+}
+
+
+.circle8
+{
+    background-color:#f5989d;
+}
+
+.circle8 img{
+    position:relative;
+    top:-40vh;
+    left:-70vw;
+    width:40vw;
+    opacity:0%;
+}
+
+.circle8:hover img
+    {
+        opacity:100%;
+}
+
+
+.circle9
+{
+    background-color:#7da7d9;
+}
+
+.circle9 img{
+    position:relative;
+    top:-45vh;
+    left:-70vw;
+    width:40vw;
+    opacity:0%;
+}
+
+.circle9:hover img
+    {
+        opacity:100%;
+}
+
+
+.circle10
+{
+    background-color:#f9ad81;
+}
+
+.circle10 img{
+    position:relative;
+    top:-50vh;
+    left:-70vw;
+    width:40vw;
+    opacity:0%;
+}
+
+.circle10:hover img
+    {
+        opacity:100%;
+}
+
+
+
+.circle11
+{
+    background-color:#c4df9b;
+}
+
+.circle11 img{
+    position:relative;
+    top:-55vh;
+    left:-70vw;
+    width:40vw;
+    opacity:0%;
+}
+
+.circle11:hover img
+    {
+        opacity:100%;
+}
+
+
+.circle12{
+    background-color:#f26d7d;
+}
+
+.circle12 img{
+    position:relative;
+    top:-60vh;
+    left:-70vw;
+    width:40vw;
+    opacity:0%;
+}
+
+.circle12:hover img
+    {
+        opacity:100%;
+}
+
+
+.circle13
+{
+    background-color:#8560a8;
+}
+
+.circle13 img{
+    position:relative;
+    top:-65vh;
+    left:-70vw;
+    width:40vw;
+    opacity:0%;
+}
+
+.circle13:hover img
+    {
+        opacity:100%;
+}
+

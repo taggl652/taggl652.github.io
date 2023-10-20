@@ -1,0 +1,65 @@
+@font-face{
+    font-family: "repro";
+    src: url('fonts/ABCReproVariable-Trial.woff') format('woff-variations'),
+        url('fonts/ABCReproVariable-Trial.woff2') format('woff2-variations');
+}
+
+pre{
+    font-size: 1vh;
+    overflow: hidden;
+    margin-right:2vw;
+    margin-left:2vw;
+    display:flex;
+    justify-content: center;
+    flex:3;
+}
+
+.header{
+    text-align:center;
+    line-height:50%;
+    flex:1;
+    font-size:3vw;
+    font-family: "repro";
+}
+
+body{
+    background-color: rgb(255,245,203);
+    color: crimson;
+    overflow:hidden;
+}
+
+.flex{
+    display:flex;
+    flex-direction:column;
+    height:100vh;
+    justify-content: center;
+    align-items:center;
+}
+
+h1{
+	font-variation-settings: "wght" 800, "slnt" 0;
+}
+
+h2{
+    font-variation-settings: "wght" 400, "slnt" 0;
+    line-height:30%;
+}
+h3{
+    font-variation-settings: "wght" 400, "slnt" 0;
+    line-height:10%;
+}
+
+strong{
+    font-variation-settings: "wght" 700, "slnt" -3;  
+}
+
+.home{
+    position:fixed;
+    width:7vw;
+    height:auto;
+    bottom:1vh;
+    left:2vw;
+    background-color:crimson;
+    border-radius: 50%;
+    padding:0.5%;
+}

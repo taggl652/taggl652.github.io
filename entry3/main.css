@@ -1,12 +1,11 @@
 @font-face{
-    font-family: "movement";
-    src: url('fonts/movement.woff2') format('woff2-variations');
-    font-weight: 100 900;
-    font-display: swap;
+    font-family: "repro";
+    src: url('fonts/ABCReproVariable-Trial.woff') format('woff-variations'),
+        url('fonts/ABCReproVariable-Trial.woff2') format('woff2-variations');
 }
 
 body{
-    background-color: black;
+    background-color: rgb(255,245,203);
     height:1000vh;
 }
 h1{
@@ -15,8 +14,8 @@ h1{
     place-content: center;
     margin: 0;
     text-align: center;
-    color: white;
-    font-family: 'movement';
+    color: crimson;
+    font-family: "repro";
     line-height: 85%;
     font-size: 1000%;
     position: fixed;
@@ -37,16 +36,16 @@ html{
 
 @keyframes grow-varied{
     0%{
-        font-variation-settings: 'wght' 100, 'SPAC' 100;
+        font-variation-settings: 'wght' 100, 'slnt' 0;
     }
 
     20%{
-        font-variation-settings: 'wght' 1000, 'SPAC' 120;
+        font-variation-settings: 'wght' 1000, 'slnt' -5;
         opacity: 100%;
     }
 
     30%{
-        font-variation-settings: 'wght' 1000, 'SPAC' 120;
+        font-variation-settings: 'wght' 1000, 'slnt' -5;
         opacity: 0%;
     }
     100%{
@@ -60,8 +59,8 @@ html{
 }
 
 section{
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
+    font-family: "repro";
+    color: crimson;
     font-size: 200%;
     line-height: 85%;
     position: fixed;
@@ -70,14 +69,31 @@ section{
 h6{
     padding: 0;
     margin: 0;
+    font-variation-settings: "wght" 400, "slnt" 0;
 }
 
 h3{
     padding: 0;
     margin: 0;
-    font-family: 'movement';
-    font-variation-settings: 'wght' 1000, 'SPAC' 110;
+    font-family: "repro";
 }
+
+.song{
+    margin-top:3%;
+    font-variation-settings: 'wght' 800, 'slnt' -5;
+    font-size:5vw;
+}
+
+.info{
+    font-size:3vw; 
+    margin-top:2%;
+    font-variation-settings: "wght" 700, "slnt" -3;  
+}
+
+section{
+    line-height:3vh;
+}
+
 
 section:nth-of-type(1)
 {
@@ -112,7 +128,7 @@ section:nth-of-type(3)
 section:nth-of-type(4)
 {
     left: 3%;
-    top: 93%;
+    top: 87%;
     animation: grow-data-3 auto linear;
     animation-timeline: --page-scroll;
 }
@@ -191,26 +207,26 @@ section:nth-of-type(4)
     }
 }
 
-/**
-#data{
-    animation: grow-data auto linear;
-    animation-delay: scroll-timeline();
-    animation-timeline: --page-scroll;
-}
-*/
 
-svg{
-    position: fixed;
-    width:50%;
-    top: 15%;
-    left: 22%;
-    scale: 75%;
+.flex svg{
+    position:fixed;
+    width:auto;
+    height:90vh;
+    scale: 100vw;
 }
 
-svg path{
+.flex svg path{
     stroke-width: 1;
-    stroke: white;
+    stroke: crimson;
     fill:none;
+}
+
+.flex{
+    display:flex;
+    width:100vw;
+    height:100vh;
+    align-items:center;
+    justify-content:center;
 }
 
 .dance{
@@ -231,6 +247,18 @@ svg path{
     }
     100%{
         stroke-dashoffset: 0;
-        fill: white;
+        fill: crimson;
     }
 }
+
+.home{
+    position:fixed;
+    width:7vw;
+    height:auto;
+    bottom:1vh;
+    left:2vw;
+    background-color:crimson;
+    border-radius: 50%;
+    padding:0.5%;
+}
+

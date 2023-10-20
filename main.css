@@ -1,0 +1,132 @@
+@font-face{
+    font-family: "repro";
+    src: url('fonts/ABCReproVariable-Trial.woff') format('woff-variations'),
+        url('fonts/ABCReproVariable-Trial.woff2') format('woff2-variations');
+}
+
+body{
+    background-color: rgb(255,245,203);
+    display:flex;
+    flex-direction:column;
+    font-family:"repro";
+    padding:2%;
+    height:100vh;
+    overflow-y:hidden;
+}
+
+.home{
+    position:fixed;
+    width:7vw;
+    height:auto;
+    bottom:1vh;
+    left:2vw;
+    background-color:crimson;
+    border-radius: 50%;
+    padding:0.5%;
+}
+
+.header{
+    height:10vh;
+    width:100%;
+   
+
+    display:flex;
+    justify-content:space-between;
+
+    font-size:1vw;
+    color:crimson;
+}
+
+.header h1:nth-of-type(2){
+    font-weight:400;
+    color:rgb(102, 153, 204); 
+}
+
+b{
+    color:rgb(220, 20, 60);
+}
+
+.steps{
+    height:100vh;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    align-items:center;
+    align-content:center;
+    margin-bottom:5%;
+
+}
+
+.steps img{
+    width:30vw;
+}
+
+.dot1{
+    height: 1vw;
+    width: 1vw;
+    background-color: crimson;
+    border-radius: 50%;
+    display: inline-block;
+}
+.dot2{
+    height: 1vw;
+    width: 1vw;
+    background-color: rgb(102, 153, 204);
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.bdc{
+    display:flex;
+    gap:1vw;
+    align-items:center;
+    color:crimson;
+}
+
+.stepsbroadway{
+    display:flex;
+    gap:1vw;
+    align-items:center;
+    color: rgb(102, 153, 204);
+    margin-top:-2vh;
+}
+
+.key{
+    display:flex;
+    flex-direction:column;
+    position:absolute;
+    top:90vh;
+    right:5vw;
+}
+
+@media(max-width:800px){
+    .steps{
+        display:flex;
+        flex-direction:column;
+    }
+
+    .steps img{
+        width:80vw;
+    }
+
+    .header{
+        display:flex;
+        flex-direction:column;
+        font-size:3vw;
+        text-align:center;
+    }
+    .header h1:nth-of-type(2)
+    {
+        font-size:3vw;
+        margin-top:-2vw;
+    }
+}
+
+.svg{
+    font-family:"repro";
+}
+
+
+
+
+

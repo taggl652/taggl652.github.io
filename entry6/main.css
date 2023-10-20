@@ -1,14 +1,19 @@
+@font-face{
+    font-family: "repro";
+    src: url('assets/fonts/ABCReproVariable-Trial.woff') format('woff-variations'),
+        url('assets/fonts/ABCReproVariable-Trial.woff2') format('woff2-variations');
+}
+
 body{
     display:flex;
     flex-direction:column;
     height:100vh;
     width:100vw;
     
-    font-family:field-gothic-cond,sans-serif;
-    font-weight:200;
-    font-style:normal;
+    font-family:"repro";
     font-size: 1vw;
     overflow:hidden;
+    background-color: rgb(255,245,203);
 }
 
 .header{
@@ -19,6 +24,38 @@ body{
     padding-right:3vw;
     padding-left:3vw;
     border-bottom:3px solid #000;
+}
+
+@keyframes varied{
+    0%{
+        font-variation-settings: "wght" 400, "slnt" 0; 
+    }
+
+    50%{
+        font-variation-settings: "wght" 800, "slnt" -3;
+        color:rgb(102, 153, 204); 
+    }
+
+    100%{
+        font-variation-settings: "wght" 400, "slnt" 0;
+    }
+}
+
+@keyframes color{
+
+    50%{
+        color:rgb(102, 153, 204); 
+    }
+}
+
+.header h1{
+    animation: varied 5s infinite;
+    width:75vw;
+}
+
+.header h2{
+    animation: color 5s infinite;
+    width:25vw;
 }
 
 .main{

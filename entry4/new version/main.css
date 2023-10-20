@@ -1,0 +1,216 @@
+@font-face{
+    font-family: "repro";
+    src: url('assets/fonts/ABCReproVariable-Trial.woff') format('woff-variations'),
+        url('assets/fonts/ABCReproVariable-Trial.woff2') format('woff2-variations');
+}
+
+body{
+    display:flex;
+    flex-direction:column;
+    background-color:rgb(255,245,203);
+    font-family:"repro";
+    height:100vh;
+    padding-bottom:5vh;
+    gap:1vh;
+}
+
+.home{
+    position:fixed;
+    width:7vw;
+    height:auto;
+    bottom:1vh;
+    left:2vw;
+    background-color:rgb(102, 153, 204);
+    border-radius: 50%;
+    padding:0.5%;
+    z-index:999;
+}
+
+.element{
+    border-radius:50%;
+    width:80%;
+    height:auto;
+    background-color:rgb(102, 153, 204); 
+}
+
+.element p{
+    color:rgb(255,245,203);
+}
+
+
+.header{
+    font-family:"repro";
+    font-size:3vw;
+    flex:1;
+    line-height:5vw;
+    text-align:center;
+    animation: varied 5s infinite;
+    color:rgb(255,245,203);
+    border-radius:50%;
+    margin-left:5%;
+    margin-right:5%;
+    background-color:rgb(102, 153, 204); 
+}
+
+.header h1{
+    margin-top:5%;
+    margin-bottom:5%;
+}
+
+@keyframes varied{
+    0%{
+        font-variation-settings: "wght" 400, "slnt" 0; 
+    }
+
+    50%{
+        font-variation-settings: "wght" 800, "slnt" -3;
+    }
+
+    100%{
+        font-variation-settings: "wght" 400, "slnt" 0;
+    }
+}
+
+.dance{
+    flex:3;
+    flex-wrap:wrap;
+    display:flex;
+    justify-content:center;
+    align-content:center;
+}
+
+.content{
+    display:flex;
+    justify-content: space-evenly;
+    text-align:center;
+    align-items:center;
+    flex:1;
+    height:fit-content;
+    gap:1em;
+    font-size:2vw;
+}
+
+.item img{
+    width:15vw;
+    height:auto;
+    filter: blur(0px)
+    contrast(100%)
+    sepia(10%)
+    hue-rotate(200deg)
+    saturate(300%)
+    brightness(110%);
+}
+
+.item p{
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 30%;
+    text-align: center;
+    width: 60%;
+    font-size:1.8vw;
+    font-variation-settings: "wght" 800, "slnt" -3;
+    color:rgb(255,245,203);
+}
+
+.item{
+    position:relative;
+    margin:1vh;
+    display:inline-block;
+}
+
+
+.image1:hover {
+    content: url(assets/gifs/gonna-be-rich-as-rockefeller.gif);
+ } 
+
+.image2:hover {
+    content: url(assets/gifs/gold-dust-at-my-feet.gif);
+ }
+
+
+.image3:hover {
+    content: url(assets/gifs/on-the-sunny-side-of-the-street-\(1\).gif);
+ }
+
+
+.image4:hover {
+    content: url(assets/gifs/grab-your-coat.gif);
+ }
+
+
+.image5:hover {
+    content: url(assets/gifs/grab-your-hat.gif);
+ }
+
+
+.image6:hover {
+    content: url(assets/gifs/leave-your-worries-on-the-doorstep.gif);
+ }
+
+
+.image7:hover {
+    content: url(assets/gifs/just-direct-your-feet.gif);
+ }
+
+
+.image8:hover {
+    content: url(assets/gifs/to-the-sunnyside-to-the-sunnyside.gif);
+ }
+
+
+.image9:hover {
+    content: url(assets/gifs/can\'t-your-hear.gif);
+ }
+
+
+.image10:hover {
+    content: url(assets/gifs/the-pitter-pat.gif);
+ }
+
+
+.image11:hover {
+    content: url(assets/gifs/all-happy-tune-is-your-step.gif);
+ }
+
+
+.image12:hover {
+    content: url(assets/gifs/life-can-be-so-sweet.gif);
+ }
+
+
+.image13:hover {
+    content: url(assets/gifs/on-the-sunny-side-of-the-street-\(2\).gif);
+ } 
+
+.image14:hover {
+    content: url(assets/gifs/i-used-to-walk-in-the-shade.gif);
+ } 
+
+.image15:hover {
+    content: url(assets/gifs/with-all-those-blues-on-parade.gif);
+ } 
+
+
+.image16:hover {
+    content: url(assets/gifs/but-no-im-not-afraid-this-rover.gif);
+ } 
+
+
+.image17:hover {
+    content: url(assets/gifs/well-she-done-cross-over\ copy.gif);
+ }
+ 
+
+.image18:hover {
+    content: url(assets/gifs/if-i-never-if-i-never-have-a-cent.gif);
+ } 
+
+ strong{
+    font-variation-settings: "wght" 700, "slnt" -3;  
+}
+
+p{
+    color:rgb(102, 153, 204);
+}

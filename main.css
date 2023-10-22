@@ -99,14 +99,28 @@ b{
     right:5vw;
 }
 
-@media(max-width:800px){
+@media(max-width:600px){
+
+    body{
+        overflow-y:scroll;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    }
+
     .steps{
         display:flex;
         flex-direction:column;
+        flex-wrap:wrap;
+        max-width:40%;
+        justify-content:center;
+        align-items:center;
+        align-content:center;
+        gap:1vh;
     }
 
     .steps img{
-        width:80vw;
+        width: 110%;
     }
 
     .header{
@@ -120,11 +134,23 @@ b{
         font-size:3vw;
         margin-top:-2vw;
     }
+
+    .svg{
+        font-family:"repro";
+    }
+    
+    .key{
+        scale:60%;
+        position:fixed;
+        top:92vh;
+        right:-3vw;
+    }
+    .stepsbroadway{
+        margin-top:-4vh;
+    }
 }
 
-.svg{
-    font-family:"repro";
-}
+
 
 
 

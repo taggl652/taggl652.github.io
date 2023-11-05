@@ -1,0 +1,101 @@
+@font-face {
+    font-family: "repro";
+    src: url(fonts/ABCReproVariable-Trial.woff);
+  }
+
+body{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    width:100vw;
+    height:100vh;
+    font-size:2vw;
+    background-color:whitesmoke;
+}
+
+svg{
+    max-height:100%;
+    max-width:auto;
+    position:absolute;
+    top:0;
+    right:0;
+    animation: opacity 10s linear;
+}
+
+@keyframes opacity{
+    0%{
+        opacity:0%;
+    }
+
+    70%{
+        opacity:0%;
+    }
+
+    100%{
+        opacity:100%;
+    }
+}
+
+#backgroundvideo{
+    object-fit:cover;
+    width: 100vw;
+    height:100vh;
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:-2;
+    animation: opacity 10s linear;
+}
+
+.cls-1 {
+    fill: whitesmoke;
+    stroke-width: 0px;
+}
+
+.cls-1:hover{
+    fill:red;
+    cursor: pointer;
+}
+
+h1{
+    font-family:"repro";
+    z-index:0;
+    opacity:0%;
+    animation: titleOpacity 5.5s;
+    animation-delay:1.5s;
+}
+
+@keyframes titleOpacity{
+    0%{
+        opacity:0%;
+    }
+
+    50%{
+        opacity:100%;
+    }
+
+    100%{
+        opacity:0%;
+    }
+}
+
+@media (max-width: 768px){
+    body{
+        font-size:2vh;
+        overflow-x:hidden;
+    }
+
+    svg{
+        position:relative;
+        transform: scale(1.5);
+    }
+
+    .typing-title{
+        align-self:center;
+        margin:0;
+    }
+
+}
+
+
+

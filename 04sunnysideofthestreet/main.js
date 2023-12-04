@@ -51,7 +51,7 @@ function video2(){
     vid.src = "assets/sunnyside02.mp4";
     vid.style.opacity = "1";
     poem.style.opacity = "1";
-    poem.innerHTML = "the quinessential city jazz experience";
+    poem.innerHTML = "the quintessential city jazz experience";
     track.style.opacity = "0";
     heading.style.opacity = "0";
     navOff();
@@ -91,7 +91,7 @@ function video6(){
     vid.src = "assets/sunnyside06.mp4";
     vid.style.opacity = "1";
     poem.style.opacity = "1";
-    poem.innerHTML = "percision of style meant constant looking";
+    poem.innerHTML = "precision of style meant constant looking";
     track.style.opacity = "0";
     heading.style.opacity = "0";
     navOff();

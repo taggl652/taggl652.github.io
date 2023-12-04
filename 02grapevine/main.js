@@ -61,7 +61,7 @@ function video3(){
     vid.src = "assets/grapevine03.mp4";
     vid.style.opacity = "1";
     poem.style.opacity = "1";
-    poem.innerHTML = "percision blurs with individuality";
+    poem.innerHTML = "precision blurs with individuality";
     track.style.opacity = "0";
     heading.style.opacity = "0";
     navOff();

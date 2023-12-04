@@ -40,7 +40,7 @@ function navOn(){
 //individual track and video functions
 function video1(){
     vid.style.opacity = "1";
-    poem.innerHTML = "my heart is beating out of my cheset";
+    poem.innerHTML = "my heart is beating out of my chest";
     poem.style.opacity = "1";
     track.style.opacity = "0";
     heading.style.opacity = "0";

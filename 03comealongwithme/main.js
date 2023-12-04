@@ -111,7 +111,7 @@ function video8(){
     vid.src = "assets/comealongwithme08.mp4";
     vid.style.opacity = "1";
     poem.style.opacity = "1";
-    poem.innerHTML = "its inseperable from my body";
+    poem.innerHTML = "it's inseperable from my body";
     track.style.opacity = "0";
     heading.style.opacity = "0";
     navOff();
